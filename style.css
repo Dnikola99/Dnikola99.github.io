@@ -2,13 +2,14 @@
 		    img {
 			    width: 400px;
 			}
+
 			#container {
-			width: 1000px;
+			width: 1500px;
 			margin: 0 auto;
-			background-color: #cccccc;
+			background-color: #FFFFF;
 			}
 			body{
-				background-color: maroon;
+				background-color: White;
 			}
 			header{
 				background-color: #FFFFF;
@@ -27,14 +28,15 @@
 
 			header li a {
 			  display: block;
-			  color: purple;
+			  color: maroon;
 			  text-align: center;
-			  padding: 14px 16px;
+			  padding: 7px 150px;
 			  text-decoration: none;
 			}
 
 			li a:hover {
-			  background-color: #69125d;
+			  background-color: maroon;
+			  color: white;
 			}
 			main{
 				padding-top: 0;
@@ -47,18 +49,13 @@
 				width: 480px;
 				background-color: ;
 				vertical-align: top;
-			}
-			#home-col-2{
-				display: inline-block;
-				width: 480px;
-				background-color: ;
-				vertical-align: top;
+				text-align: center;
+				margin-left: 400px;
+				display: block;
 			}
 			#about-col-1{
 				display: inline-block;
 				width: 670px;
-				background-color: ;
-				border: ;
 				margin-right: 20px;
 				padding: 0 10px;
 				vertical-align: top;
@@ -66,8 +63,6 @@
 			#about-col-2{
 				display: inline-block;
 				width: 230px;
-				background-color: ;
-				border: ;
 				padding: 0 10px;
 				vertical-align: top;
 			}
@@ -91,18 +86,33 @@
 			display: inline-clock;
 			width: 350px;
 			}
-			
+		.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: top;
+}
 			.home-row-2{
 			display: inline-block;
 			width: 270px;
-			background-color: #800000;
+			background-color: #FFFFF;
 			border: 1px solid black;
 			margin-top: 20px;
 			margin-left: 20px;
 			margin-right: 20px;
 			}
 			footer{
-				background-color: #FFFFF;
+				background-color: #333;
+				color: #FFFFF;
 			}
 			footer div{
 			width: 200px;
